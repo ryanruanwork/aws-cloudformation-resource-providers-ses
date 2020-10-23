@@ -1,0 +1,16 @@
+{
+    "typeName": "AWS::Lotus::FrontendPackage",
+    "language": "java",
+    "runtime": "java8",
+    "entrypoint": "software.amazon.lotus.frontendpackage.HandlerWrapper::handleRequest",
+    "testEntrypoint": "software.amazon.lotus.frontendpackage.HandlerWrapper::testEntrypoint",
+    "settings": {
+        "namespace": [
+            "software",
+            "amazon",
+            "lotus",
+            "frontendpackage"
+        ],
+        "codegen_template_path": "default"
+    }
+}
